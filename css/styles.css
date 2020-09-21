@@ -1,0 +1,64 @@
+.navbar {
+    background-image: linear-gradient(to right,black, lightgray);
+    margin-bottom: 30px;
+}
+
+.row-content {
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+
+.jumbotron {
+    /* background-image: linear-gradient( lightgrey, white); */
+    background-image: url("/images/stars.png");
+    margin-bottom: 0;
+    background-repeat: repeat-x;
+    background-size: cover;
+    animation: 60s para linear infinite;
+    
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+/* styles for game cards */
+.game-card {
+    height: 100%;
+}
+
+.game-card .card-header{
+    text-align: center;
+}
+
+.game-card img{
+    margin: auto;
+    padding: 5px;
+}
+
+.card-img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-image: linear-gradient(to right,black, lightgray);
+    height: 30%;
+}
+
+footer img {
+    height: 100px;
+}
+
+/* styles for scrolling header */
+@keyframes para {
+    100% {
+        background-position: 
+            -5000px 20%,
+            -800px 95%,
+            500px 50%,
+            1000px 100%,
+            400px 0;
+    }
+}
