@@ -18,6 +18,11 @@
     
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 
 
 .card-header {
@@ -46,8 +51,14 @@
 
 footer {
     background-image: linear-gradient(to right,black, lightgray);
-  
-}
+    /* background-color: #efefef; */
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto;
+  }
+
+  .menuContainer, h4 {
+      cursor: pointer;
+  }
 
 footer img {
     height: 100px;
